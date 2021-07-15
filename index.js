@@ -1,6 +1,6 @@
 const http = require('http')
 
-const port = 80
+const port = 3000
 
 const server = http.createServer((req, res) => {
     console.log("Receive...");
